@@ -1,12 +1,12 @@
 lockfileVersion: 5.4
 
 specifiers:
-  valaxy: 0.13.3
-  valaxy-theme-yun: 0.13.3
+  valaxy: 0.13.6
+  valaxy-theme-yun: 0.13.6
 
 dependencies:
-  valaxy: 0.13.3
-  valaxy-theme-yun: 0.13.3_valaxy@0.13.3
+  valaxy: 0.13.6
+  valaxy-theme-yun: 0.13.6_valaxy@0.13.6
 
 packages:
 
@@ -2950,30 +2950,30 @@ packages:
       requires-port: 1.0.0
     dev: false
 
-  /valaxy-addon-waline/0.0.9_valaxy@0.13.3:
+  /valaxy-addon-waline/0.0.9_valaxy@0.13.6:
     resolution: {integrity: sha512-IG3S7IhsL1whR49NNRe+J3g7owxfCjFPLfWmwE2+1xH2O7JRcmdrOTgH3mEpVLbX7gqUx1nNBKx7njW1gUGawQ==}
     peerDependencies:
       valaxy: latest
     dependencies:
       '@waline/client': 2.14.7
-      valaxy: 0.13.3
+      valaxy: 0.13.6
     transitivePeerDependencies:
       - '@vue/composition-api'
     dev: false
 
-  /valaxy-theme-yun/0.13.3_valaxy@0.13.3:
-    resolution: {integrity: sha512-T1DYyTBw5umlHMEqbm8eJUZW/OHvf92R87yBBPVNJzhahZ99JTtv6MTiccN12eNC2/tFKqNob1PacVSsXFJcRg==}
+  /valaxy-theme-yun/0.13.6_valaxy@0.13.6:
+    resolution: {integrity: sha512-BpgSbOvVz/eIggfxHjAfODc7kpAugMMHfAOkLdh9XVyJfuwmc0z3+hxFy0hbgO7mtiV/8jG52nOhYnx+JPfbEQ==}
     dependencies:
       '@iconify-json/ant-design': 1.1.4
       '@iconify-json/simple-icons': 1.1.41
-      valaxy-addon-waline: 0.0.9_valaxy@0.13.3
+      valaxy-addon-waline: 0.0.9_valaxy@0.13.6
     transitivePeerDependencies:
       - '@vue/composition-api'
       - valaxy
     dev: false
 
-  /valaxy/0.13.3:
-    resolution: {integrity: sha512-JsVzP3Lk+AkERomZqVCMl1ojrz63m4wRkzuw5iJ8HY+zjN2Zim3yolTj11elFfalp641HcLOp8fbfB50+YXyaQ==}
+  /valaxy/0.13.6:
+    resolution: {integrity: sha512-lxq+xz8WinmhaXPt8h0P0Yd16avJjdMywbny9qTUrOQ3pzmsBodxgYpe0TvOWGNCu2QWLsr1l78Z0ozckROh3A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     dependencies:
