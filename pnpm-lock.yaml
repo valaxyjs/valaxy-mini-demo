@@ -1,12 +1,12 @@
 lockfileVersion: 5.4
 
 specifiers:
-  valaxy: 0.13.6
-  valaxy-theme-yun: 0.13.6
+  valaxy: 0.14.0
+  valaxy-theme-yun: 0.14.0
 
 dependencies:
-  valaxy: 0.13.6
-  valaxy-theme-yun: 0.13.6_valaxy@0.13.6
+  valaxy: 0.14.0
+  valaxy-theme-yun: 0.14.0_valaxy@0.14.0
 
 packages:
 
@@ -291,8 +291,8 @@ packages:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
     dev: false
 
-  /@iconify/utils/2.0.12:
-    resolution: {integrity: sha512-hhUyt1/k5RRhfcW/PRRdBw8e1ACehJT5QEZJRm7HnkCiUx11/0ccLr7K0OMlPSwjnfYcBS2gAUD3EpmL0iJCkQ==}
+  /@iconify/utils/2.1.0:
+    resolution: {integrity: sha512-ouXv1hQfOKq4k3wxQ2OJBYQ2gXBMeFoUCIiORmuUVUNlSq9oOTzQBF3jpFRb0+/P0bnV+RIoHcbZKufZTlJ16g==}
     dependencies:
       '@antfu/install-pkg': 0.1.1
       '@antfu/utils': 0.7.2
@@ -607,7 +607,7 @@ packages:
   /@unocss/preset-icons/0.46.5:
     resolution: {integrity: sha512-g1gMi++j233nc/5KcUti5+X+fQ9K36MzROx37pJCFz+jD5i7Y21hXOC/brP7k4tWo1IEFR8rsLgtvVEXOhu8Sw==}
     dependencies:
-      '@iconify/utils': 2.0.12
+      '@iconify/utils': 2.1.0
       '@unocss/core': 0.46.5
       ohmyfetch: 0.4.21
     transitivePeerDependencies:
@@ -1747,7 +1747,7 @@ packages:
   /html5parser/2.0.2:
     resolution: {integrity: sha512-L0y+IdTVxHsovmye8MBtFgBvWZnq1C9WnI/SmJszxoQjmUH1psX2uzDk21O5k5et6udxdGjwxkbmT9eVRoG05w==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: false
 
   /htmlparser2/8.0.1:
@@ -2158,7 +2158,7 @@ packages:
   /lower-case/2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: false
 
   /lru-cache/7.14.1:
@@ -2246,6 +2246,10 @@ packages:
     resolution: {integrity: sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==}
     dev: false
 
+  /medium-zoom/1.0.8:
+    resolution: {integrity: sha512-CjFVuFq/IfrdqesAXfg+hzlDKu6A2n80ZIq0Kl9kWjoHh9j1N9Uvk5X0/MmN0hOfm5F9YBswlClhcwnmtwz7gA==}
+    dev: false
+
   /merge-stream/2.0.0:
     resolution: {integrity: sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==}
     dev: false
@@ -2318,7 +2322,7 @@ packages:
     resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: false
 
   /node-fetch-native/0.1.8:
@@ -2467,7 +2471,7 @@ packages:
     resolution: {integrity: sha512-uWlGT3YSnK9x3BQJaOdcZwrnV6hPpd8jFH1/ucpiLRPh/2zCVJKS19E4GvYHvaCcACn3foXZ0cLB9Wrx1KGe5g==}
     dependencies:
       no-case: 3.0.4
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: false
 
   /path-exists/4.0.0:
@@ -2612,8 +2616,8 @@ packages:
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
     dev: false
 
-  /rollup/3.10.1:
-    resolution: {integrity: sha512-3Er+yel3bZbZX1g2kjVM+FW+RUWDxbG87fcqFM5/9HbPCTpbVp6JOLn7jlxnNlbu7s/N/uDA4EV/91E2gWnxzw==}
+  /rollup/3.12.0:
+    resolution: {integrity: sha512-4MZ8kA2HNYahIjz63rzrMMRvDqQDeS9LoriJvMuV0V6zIGysP36e9t4yObUfwdT9h/szXoHQideICftcdZklWg==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -2822,8 +2826,8 @@ packages:
       punycode: 2.3.0
     dev: false
 
-  /tslib/2.4.1:
-    resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==}
+  /tslib/2.5.0:
+    resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
     dev: false
 
   /type-check/0.3.2:
@@ -2950,30 +2954,30 @@ packages:
       requires-port: 1.0.0
     dev: false
 
-  /valaxy-addon-waline/0.0.9_valaxy@0.13.6:
+  /valaxy-addon-waline/0.0.9_valaxy@0.14.0:
     resolution: {integrity: sha512-IG3S7IhsL1whR49NNRe+J3g7owxfCjFPLfWmwE2+1xH2O7JRcmdrOTgH3mEpVLbX7gqUx1nNBKx7njW1gUGawQ==}
     peerDependencies:
       valaxy: latest
     dependencies:
       '@waline/client': 2.14.7
-      valaxy: 0.13.6
+      valaxy: 0.14.0
     transitivePeerDependencies:
       - '@vue/composition-api'
     dev: false
 
-  /valaxy-theme-yun/0.13.6_valaxy@0.13.6:
-    resolution: {integrity: sha512-BpgSbOvVz/eIggfxHjAfODc7kpAugMMHfAOkLdh9XVyJfuwmc0z3+hxFy0hbgO7mtiV/8jG52nOhYnx+JPfbEQ==}
+  /valaxy-theme-yun/0.14.0_valaxy@0.14.0:
+    resolution: {integrity: sha512-1gIXxROMkVCRUpak3/083B93ABqR/zLjnVq+NVlxp3eXO2dH2E/CWRNFn+06DYSbb+eu7/Ahgh/LvikDSsOtIw==}
     dependencies:
       '@iconify-json/ant-design': 1.1.4
       '@iconify-json/simple-icons': 1.1.41
-      valaxy-addon-waline: 0.0.9_valaxy@0.13.6
+      valaxy-addon-waline: 0.0.9_valaxy@0.14.0
     transitivePeerDependencies:
       - '@vue/composition-api'
       - valaxy
     dev: false
 
-  /valaxy/0.13.6:
-    resolution: {integrity: sha512-lxq+xz8WinmhaXPt8h0P0Yd16avJjdMywbny9qTUrOQ3pzmsBodxgYpe0TvOWGNCu2QWLsr1l78Z0ozckROh3A==}
+  /valaxy/0.14.0:
+    resolution: {integrity: sha512-qYrXZRe+Sb4lUeXHlVD0mOlkvvtjlWDAkDMDNuTBYmdavn6xVXMNdp3h5xVHe3NmIkHhhSsxs0FwUvCOJ5k1Tw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -3011,6 +3015,7 @@ packages:
       markdown-it-emoji: 2.0.2
       markdown-it-table-of-contents: 0.6.0
       markdown-it-task-lists: 2.1.1
+      medium-zoom: 1.0.8
       nprogress: 0.2.0
       open: 8.4.0
       pascal-case: 3.1.2
@@ -3168,7 +3173,7 @@ packages:
       esbuild: 0.16.17
       postcss: 8.4.21
       resolve: 1.22.1
-      rollup: 3.10.1
+      rollup: 3.12.0
       sass: 1.57.1
     optionalDependencies:
       fsevents: 2.3.2
