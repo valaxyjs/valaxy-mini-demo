@@ -6,6 +6,7 @@ export default defineSiteConfig({
   title: 'Valaxy Theme Yun',
   author: {
     name: '云游君',
+    avatar: '/valaxy-logo.png',
   },
   description: 'Valaxy Theme Yun Preview.',
   social: [
