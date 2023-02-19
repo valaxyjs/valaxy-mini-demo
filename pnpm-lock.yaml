@@ -1,12 +1,12 @@
 lockfileVersion: 5.4
 
 specifiers:
-  valaxy: 0.14.10
-  valaxy-theme-yun: 0.14.10
+  valaxy: 0.14.13
+  valaxy-theme-yun: 0.14.13
 
 dependencies:
-  valaxy: 0.14.10
-  valaxy-theme-yun: 0.14.10_valaxy@0.14.10
+  valaxy: 0.14.13
+  valaxy-theme-yun: 0.14.13_valaxy@0.14.13
 
 packages:
 
@@ -3638,30 +3638,30 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: false
 
-  /valaxy-addon-waline/0.1.0_valaxy@0.14.10:
+  /valaxy-addon-waline/0.1.0_valaxy@0.14.13:
     resolution: {integrity: sha512-+P5ElZqgSWK7TCPu1E6jLNxHTSAP9orDFiJR0O3vYYmMcMxmuV1+VXuaGBfWcMQpt3knPCHbwir6rNqWw3O/Cw==}
     peerDependencies:
       valaxy: latest
     dependencies:
       '@waline/client': 2.14.7
-      valaxy: 0.14.10
+      valaxy: 0.14.13
     transitivePeerDependencies:
       - '@vue/composition-api'
     dev: false
 
-  /valaxy-theme-yun/0.14.10_valaxy@0.14.10:
-    resolution: {integrity: sha512-VbRsgJGOQ0JlDPqlz0x0ZcBQjG35AvO4uoKf+L+CdtrOkQYqA49yE3ikIWtyEmpF2QuQKwRaTuz8HCi4W7defQ==}
+  /valaxy-theme-yun/0.14.13_valaxy@0.14.13:
+    resolution: {integrity: sha512-0XKbh9IGds2NYUBCa23KyQErxswnNDUoGmjmtgCnNJWClZYQ+lWMZFESL9rJonRZh6mI0LWguNRazk2mnqDL6g==}
     dependencies:
       '@iconify-json/ant-design': 1.1.5
       '@iconify-json/simple-icons': 1.1.44
-      valaxy-addon-waline: 0.1.0_valaxy@0.14.10
+      valaxy-addon-waline: 0.1.0_valaxy@0.14.13
     transitivePeerDependencies:
       - '@vue/composition-api'
       - valaxy
     dev: false
 
-  /valaxy/0.14.10:
-    resolution: {integrity: sha512-bGYrQ9cj8HsfqbthCEgY5jdja50fFUqBFtplW67kTTzdYJqvl9ZH6zr8S+Tb6/jL2K3rFWI1qmaW7cWSEFZ1IA==}
+  /valaxy/0.14.13:
+    resolution: {integrity: sha512-fk0d4wgMidXbjLZUe4/+l07XJVsz6QFCcEyI/Hyjsc4h5xMyQ4GSYjqzehrlVgqz7YF/YO7MDrSPhw6OL1SUYA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -3712,7 +3712,7 @@ packages:
       unplugin-vue-components: 0.24.0_vue@3.2.47
       vite: 4.1.2_sass@1.58.3
       vite-plugin-pages: 0.28.0_vite@4.1.2
-      vite-plugin-vue-layouts: 0.7.0_odivvtajfxy4ncwzzxzazp6cke
+      vite-plugin-vue-layouts: 0.8.0_odivvtajfxy4ncwzzxzazp6cke
       vite-ssg: 0.22.1_i7femjqmpzphs7wsailaf3iviu
       vite-ssg-sitemap: 0.4.3
       vue: 3.2.47
@@ -3772,12 +3772,12 @@ packages:
       - supports-color
     dev: false
 
-  /vite-plugin-vue-layouts/0.7.0_odivvtajfxy4ncwzzxzazp6cke:
-    resolution: {integrity: sha512-k5XDmRNFo4M/GmUjhbRXj2WmJiFcGoVI8l/uZ72RHyRDQr4wE/6Zq/KFq0lqXomWQxTSzakQRUswzNwtvZLE8A==}
+  /vite-plugin-vue-layouts/0.8.0_odivvtajfxy4ncwzzxzazp6cke:
+    resolution: {integrity: sha512-UZW2nSV2LraTSe7gsAL46hfdi7a0X1RvkGGoJVtA2O8beu7anzpXFwQLou8+kHy31CzVycT4gIPySBsHhtBN5g==}
     peerDependencies:
-      vite: ^2.5.0 || ^3.0.0-0
+      vite: ^2.5.0 || ^3.0.0-0 || ^4.0.0
       vue: ^2.6.12 || ^3.2.4
-      vue-router: ^3.5.1 || ^ 4.0.11
+      vue-router: ^3.5.1 || ^4.0.11
     dependencies:
       '@vue/compiler-sfc': 3.2.47
       debug: 4.3.4
