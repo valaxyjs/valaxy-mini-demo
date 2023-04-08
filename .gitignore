@@ -1,3 +1,8 @@
+# You can remove lock files from version control if you like.
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
 # vite-ssg
 .vite-ssg-dist
 .vite-ssg-temp
