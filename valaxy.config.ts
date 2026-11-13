@@ -1,10 +1,10 @@
-import { defineConfig } from 'valaxy';
-import type { ThemeConfig } from 'valaxy-theme-yun';
+import { defineValaxyConfig } from 'valaxy'
+import type { ThemeConfig } from 'valaxy-theme-yun'
 
 /**
  * User Config
  */
-export default defineConfig<ThemeConfig>({
+export default defineValaxyConfig<ThemeConfig>({
   theme: 'yun',
 
   themeConfig: {
@@ -36,4 +36,4 @@ export default defineConfig<ThemeConfig>({
       },
     },
   },
-});
+})

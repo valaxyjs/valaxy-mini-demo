@@ -1,4 +1,4 @@
-import { defineSiteConfig } from "valaxy";
+import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
   url: 'https://example.com',
@@ -92,7 +92,6 @@ export default defineSiteConfig({
 
   search: {
     enable: false,
-    type: 'fuse'
   },
 
   sponsor: {

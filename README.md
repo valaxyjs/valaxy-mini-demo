@@ -6,6 +6,12 @@ This is a minimal demo for [valaxy](https://github.com/YunYouJun/valaxy) and [va
 
 [![StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/valaxy)
 
-## FAQ
+## Run locally
 
-For a demo, not with `package-lock.json`, `pnpm-lock.yaml`.
+Use Node.js 22.12 or later and the pnpm version pinned in `package.json`.
+
+```sh
+pnpm install --frozen-lockfile
+pnpm dev
+pnpm build
+```
